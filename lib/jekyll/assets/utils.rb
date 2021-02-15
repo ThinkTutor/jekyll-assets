@@ -276,7 +276,7 @@ module Jekyll
           path << base_url if base_url?
           if cdn_destination
             path << cdn_destination
-          elsif destination?
+          elsif destination
             path << destination
           end
           path << user_path unless user_path.nil? || user_path.empty?
