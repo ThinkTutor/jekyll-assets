@@ -278,6 +278,7 @@ module Jekyll
             path << cdn_destination
           elsif destination?
             path << destination
+          end
           path << user_path unless user_path.nil? || user_path.empty?
           path = path.compact
   
